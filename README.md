@@ -2,7 +2,7 @@
 
 ![Miner's stats page](https://user-images.githubusercontent.com/7374093/31591180-43c72364-b236-11e7-8d47-726cd66b876a.png)
 
-[![Join the chat at https://gitter.im/sammy007/open-ethereum-pool](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sammy007/open-ethereum-pool?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/sammy007/open-ethereum-pool.svg?branch=develop)](https://travis-ci.org/sammy007/open-ethereum-pool) [![Go Report Card](https://goreportcard.com/badge/github.com/sammy007/open-ethereum-pool)](https://goreportcard.com/report/github.com/sammy007/open-ethereum-pool)
+[![Join the chat at https://gitter.im/arokapil/tektosphere-ethereum](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/arokapil/tektosphere-ethereum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/arokapil/tektosphere-ethereum.svg?branch=develop)](https://travis-ci.org/arokapil/tektosphere-ethereum) [![Go Report Card](https://goreportcard.com/badge/github.com/arokapil/tektosphere-ethereum)](https://goreportcard.com/report/github.com/arokapil/tektosphere-ethereum)
 
 ### Features
 
@@ -17,7 +17,7 @@
 
 #### Proxies
 
-* [Ether-Proxy](https://github.com/sammy007/ether-proxy) HTTP proxy with web interface
+* [Ether-Proxy](https://github.com/arokapil/ether-proxy) HTTP proxy with web interface
 * [Stratum Proxy](https://github.com/Atrides/eth-proxy) for Ethereum
 
 ### Building on Linux
@@ -37,15 +37,15 @@ First install  [go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Instal
 Clone & compile:
 
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/sammy007/open-ethereum-pool.git
-    cd open-ethereum-pool
+    git clone https://github.com/arokapil/tektosphere-ethereum.git
+    cd tektosphere-ethereum
     make
 
 Install redis-server.
 
 ### Running Pool
 
-    ./build/bin/open-ethereum-pool config.json
+    ./build/bin/tektosphere-ethereum config.json
 
 You can use Ubuntu upstart - check for sample config in <code>upstart.conf</code>.
 
@@ -309,7 +309,7 @@ This pool is tested to work with [Ethcore's Parity](https://github.com/ethcore/p
 
 ### Credits
 
-Made by sammy007. Licensed under GPLv3.
+Made by arokapil. Licensed under GPLv3.
 
 #### Contributors
 

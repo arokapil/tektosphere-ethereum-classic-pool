@@ -12,8 +12,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/sammy007/open-ethereum-pool/storage"
-	"github.com/sammy007/open-ethereum-pool/util"
+	"github.com/arokapil/tektosphere-ethereum/storage"
+	"github.com/arokapil/tektosphere-ethereum/util"
 )
 
 type ApiConfig struct {
