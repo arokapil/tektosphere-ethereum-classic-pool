@@ -309,7 +309,7 @@ This pool is tested to work with [Ethcore's Parity](https://github.com/ethcore/p
 
 ### Credits
 
-Made by sammy007. Licensed under GPLv3.
+Ported by arokapil, Licensed under GPLv3. Made by sammy007. Licensed under GPLv3.
 
 #### Contributors
 
