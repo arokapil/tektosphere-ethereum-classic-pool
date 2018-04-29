@@ -1,7 +1,7 @@
 {
   "name": "tektosphere-ethereum",
   "version": "0.0.0",
-  "description": "Open Ethereum Pool",
+  "description": "Ethereum Classic Pool",
   "private": true,
   "directories": {
     "doc": "doc",
